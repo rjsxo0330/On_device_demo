@@ -1,0 +1,8 @@
+SIMFILE
+INPUT C:\Users\Public\Documents\CarSim_Data\Runs\Run348_all.par
+ECHO C:\Users\Public\Documents\CarSim_Data\Runs\Run348_echo.par
+FINAL C:\Users\Public\Documents\CarSim_Data\Runs\Run348_end.par
+LOGFILE C:\Users\Public\Documents\CarSim_Data\Runs\Run348_log.txt
+ERDFILE C:\Users\Public\Documents\CarSim_Data\Runs\Run348.erd
+DLLFILE C:\Users\user\Desktop\Workspace\00진행과제\온디바이스\3차년도\제어기\sLLM_X\종방향\On_device_Code_long\i_i_1.dll
+END

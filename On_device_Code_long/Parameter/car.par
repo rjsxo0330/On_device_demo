@@ -1,0 +1,13 @@
+#ifndef __CAR_PAR__
+#define __CAR_PAR__
+
+#define HMC_LM      1
+#define HMC_HG      2
+
+#define NORMAL_TEST 1
+#define TMP_TEST    2
+
+#define PID         0
+#define LQR         1
+
+#endif

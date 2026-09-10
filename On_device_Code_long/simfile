@@ -1,0 +1,8 @@
+SIMFILE
+INPUT C:\Users\Public\Documents\CarSim_Data\Runs\Run349_all.par
+ECHO C:\Users\Public\Documents\CarSim_Data\Runs\Run349_echo.par
+FINAL C:\Users\Public\Documents\CarSim_Data\Runs\Run349_end.par
+LOGFILE C:\Users\Public\Documents\CarSim_Data\Runs\Run349_log.txt
+ERDFILE C:\Users\Public\Documents\CarSim_Data\Runs\Run349.erd
+DLLFILE C:\Program Files (x86)\CarSim802_Prog\Programs\Solvers\Default\i_i.dll
+END

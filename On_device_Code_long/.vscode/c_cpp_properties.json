@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "name": "MATLAB MinGW",
+      "compilerPath": "C:/ProgramData/MATLAB/SupportPackages/R2025b/3P.instrset/mingw_w64.instrset/bin/gcc.exe",
+      "intelliSenseMode": "windows-gcc-x64",
+      "cStandard": "c99",
+      "cppStandard": "c++14",
+      "defines": [
+        "MATLAB_MEX_FILE"
+      ],
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/**",
+        "C:/Program Files/MATLAB/R2025b/extern/include",
+        "C:/Program Files/MATLAB/R2025b/simulink/include",
+        "C:/Program Files/MATLAB/R2025b/rtw/c/src"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "${workspaceFolder}/**",
+          "C:/Program Files/MATLAB/R2025b/extern/include",
+          "C:/Program Files/MATLAB/R2025b/simulink/include",
+          "C:/Program Files/MATLAB/R2025b/rtw/c/src"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}

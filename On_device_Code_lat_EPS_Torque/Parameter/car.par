@@ -1,0 +1,54 @@
+#ifndef __CAR_PAR__
+#define __CAR_PAR__
+//CAR Type
+#define HMC_LM         1
+#define HMC_HG         2
+
+//ESTIMATOR Type
+#define NO_ESTIMATOR         0
+#define MULTIRATE_KF         1
+#define SINGLERATE_KF        2
+
+//Control Type
+#define LQ_CONTROL           0
+#define PID_CONTROL          1
+
+//Steering Type
+#define MANDO_CEPS           1
+#define MANDO_REPS           2
+#define MOBIS_CEPS           3
+#define MOBIS_REPS           4
+
+//CAMERA Type
+#define MOBILEYE             1
+#define MANDO                2
+
+//LKS Feedforward
+#define NO_FEEDFORWARD               1
+#define DESIRED_YAW_FEEDFORWARD	   2
+#define SUM_POSITION_FEEDFORWARD     3
+
+//Test MODE
+#define NORMAL_TEST          1
+#define TMP_TEST		       2
+#define STEER_ANGLE_TEST     3
+#define STEER_TORQUE_TEST    4
+
+//PVL type
+#define NO_PVL          0
+#define MULTIRATE_PVL	  1
+
+//Q_PVL type
+#define QUALITY_PVL_OFF           0
+#define QUALITY_PVL_ON            1
+
+//CONTROL mode
+#define CONTROL_LKS           0
+#define CONTROL_LXC           1
+
+//STEERINGCONTROL mode
+#define PPIFF           0
+#define BACKSTEPPING           1
+#define PBC           2
+
+#endif

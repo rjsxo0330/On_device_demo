@@ -1,0 +1,12 @@
+# MATLAB/Simulink generated artifacts
+slprj/
+*.slxc
+*.mexw64
+
+# Native binaries
+*.dll
+*.exe
+
+# Editor/cache noise
+.vscode/ipch/
+*.autosave
