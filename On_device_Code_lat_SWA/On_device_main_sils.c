@@ -22,7 +22,7 @@
 #define WidthInputPort0   14 
 #define WidthInputPort1   3
 #define WidthInputPort2   13
-#define WidthInputPort3   2
+#define WidthInputPort3   1
 
 #define NumberOutputPort  1
  
@@ -161,8 +161,7 @@ static void mdlOutputs(SimStruct *S, int_T tid)
     MAB_LKS_LOOKAHEAD_DISTANCE          = (float64_t)(u2[12]);                // unit : [m]                 Lateral lookahead distance                   (Control desk)          MAB3 LAN
 
     /* Lateral-only config */
-    MAB_Lateral_flag                    = (float64_t)(u3[0]);                 // unit : [-]                 Lateral control flag (0 - off/ 1 - on)       (Control desk)          MAB3 LAN
-    MAB_Lateral_Level                   = (float64_t)(u3[1]);                 // unit : [-]                 Lateral control level (1 ~ 3)                (Control desk)          MAB3 LAN
+    MAB_Lateral_Level                   = (float64_t)(u3[0]);                 // unit : [-]                 Lateral control level (1 ~ 3)                (Control desk)          MAB3 LAN
 
     Perception();
     Control();                                                                // LKS steering angle reference integration

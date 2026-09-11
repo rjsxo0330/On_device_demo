@@ -64,7 +64,7 @@ Input ports:
 | `u0` | 14 | ECAN | lateral acceleration, yaw rate, steering wheel, rear wheel speed, camera lane coefficients |
 | `u1` | 3 | ScenarioCAN | Driver ID, LKS on/off, LKS level |
 | `u2` | 13 | MAB | LKS LQR gains and lookahead distance |
-| `u3` | 2 | MAB | lateral flag and lateral level |
+| `u3` | 1 | MAB | lateral level |
 
 Output ports:
 
@@ -74,7 +74,7 @@ Output ports:
 
 ## 4. Control And Gating
 
-`Control_Gating()` uses `Logic_Lateral_flag`.
+`Control_Gating()` keeps the lateral controller path enabled. LKS on/off is handled by `Logic_LKS_ON_OFF_SEND`.
 
 `LaneKeepingController()` applies level-based LKS LQR gain smoothing through `LevelTransitionArraySmoothing(...)`.
 

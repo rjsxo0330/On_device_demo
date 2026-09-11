@@ -17,7 +17,7 @@ Both lateral variants use the same input/output shape:
 - `u0`: width 14, E-CAN lateral sensors
 - `u1`: width 3, ScenarioCAN LKS command
 - `u2`: width 13, LKS gains and lookahead distance
-- `u3`: width 2, lateral flag and level
+- `u3`: width 1, lateral level
 - `y0`: width 1, selected lateral command output
 
 `On_device_Code_lat_EPS_Torque` outputs `Lateral_Cont_Torque`.

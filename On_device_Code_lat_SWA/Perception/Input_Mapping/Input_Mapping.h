@@ -19,7 +19,6 @@ extern float64_t MAB_LKS_L2_LQR_K[4];
 extern float64_t MAB_LKS_L3_LQR_K[4];
 extern float64_t MAB_LKS_LOOKAHEAD_DISTANCE;
 
-extern float64_t MAB_Lateral_flag;
 extern float64_t MAB_Lateral_Level;
 
 extern float64_t Logic_IMU_LatAccel;
@@ -40,7 +39,6 @@ extern float64_t Logic_LKS_L2_LQR_K[4];
 extern float64_t Logic_LKS_L3_LQR_K[4];
 extern float64_t Logic_LKS_LOOKAHEAD_DISTANCE;
 
-extern float64_t Logic_Lateral_flag;
 extern float64_t Logic_wheel_velocity;
 
 void Input_Mapping(void);

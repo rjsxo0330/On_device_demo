@@ -24,7 +24,6 @@ float64_t MAB_LKS_L2_LQR_K[4];
 float64_t MAB_LKS_L3_LQR_K[4];
 float64_t MAB_LKS_LOOKAHEAD_DISTANCE;
 
-float64_t MAB_Lateral_flag;
 float64_t MAB_Lateral_Level;
 
 float64_t Logic_IMU_LatAccel;
@@ -70,6 +69,5 @@ void Input_Mapping(void)
     Logic_LKS_LOOKAHEAD_DISTANCE  = MAB_LKS_LOOKAHEAD_DISTANCE;                                                 /* Use: PathCommand() preview point. */
 
     /* MAB config interface -> Logic interface */
-    Logic_Lateral_flag            = MAB_Lateral_flag;                                                           /* Use: lateral controller on/off gating. */
     Logic_LKS_Level               = MAB_Lateral_Level;                                                          /* Use: LaneKeepingController() level selection. */
 }

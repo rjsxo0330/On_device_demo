@@ -3,17 +3,11 @@
 #include "Lateral_Controller/Lane_Keeping_Control/LKSControl.h"
 #include "Control.h"
 
-float64_t Logic_Lateral_flag;
 float64_t Logic_Lateral_Enable;
 
 void Control_Gating(void)
 {
-    Logic_Lateral_Enable = 0.0;
-
-    if (Logic_Lateral_flag > 0.5)
-    {
-        Logic_Lateral_Enable = 1.0;
-    }
+    Logic_Lateral_Enable = 1.0;
 }
 
 void Control(void)
